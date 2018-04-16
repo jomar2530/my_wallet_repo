@@ -14,3 +14,31 @@
 !/tmp/.keep
 
 .byebug_history
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/log
+/tmp
+npm-debug.log
+
+# Ignore the node_modules.
+/node_modules
+
+# Ignore the bower_components.
+/bower_components
+
+# Ignore the byebug_history file
+.byebug_history
+
+# Ignore private / info sensitive files
+/config/switch.yml
+/config/application.yml
+/config/database.yml
+
+# Ignore Redis Dump file
+dump.rdb
+
+# Ignore pem files
+lib/certs
+
+/vendor
